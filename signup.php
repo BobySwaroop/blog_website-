@@ -683,22 +683,4 @@ $(document).ready(function(){
 include("registration.php");
 ?>
 
-<script>
-// Get the modal
-var modal = document.getElementById("model");
-
-// Get the button that opens the modal
-var btn = document.getElementById("btn");
-
-
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  setTimeout(() => {
-    modal.style.display = "block";
-    
-  }, 3000);
-}
-</script>
-
 </html>
