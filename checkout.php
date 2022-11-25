@@ -1,6 +1,6 @@
 <?php
 $conn = mysqli_connect('localhost','root','','blog');
- 
+ echo "Hello";
 // check if username is exist or not
 if(isset($_POST['username'])){
   $query = "SELECT * FROM sign_up WHERE user_name = '".$_POST['username']."'";
